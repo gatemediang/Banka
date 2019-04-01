@@ -37,7 +37,17 @@ function div_hidelogin() {
 function div_showadmin() {
   document.getElementById("admindiv").style.display = "block";
 }
-//Function to Hide Admin Login  Popup
+//Function to Hide Admin Login Popup
 function div_hideadmin() {
   document.getElementById("admindiv").style.display = "none";
+}
+
+/***Account Form *****/
+//Function To Display Admin Login Popup
+function div_showaccount() {
+  document.getElementById("accountdiv").style.display = "block";
+}
+//Function to Hide Admin Login Popup
+function div_hideaccount() {
+  document.getElementById("accountdiv").style.display = "none";
 }

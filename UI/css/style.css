@@ -19,8 +19,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #333;
-
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .v-section {
@@ -80,7 +79,7 @@ body {
   z-index: 2;
   min-height: 70px;
 }
-* header li {
+header li {
   float: right;
   display: inline;
   padding: 20px;
@@ -175,14 +174,14 @@ footer {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: #333;
+  background-color: #35424a;
   padding: 5px;
   grid-column-gap: 10px;
   color: #fff;
   width: 100%;
 }
 .grid-item {
-  background-color: #333;
+  background-color: #35424a;
 
   padding: 20px;
   font-size: 16px;
