@@ -15,24 +15,30 @@
   <body>
     <header>
       <div class="branding">
-        <div class="nav">
+        <div class="menu">
           <div class="logo">
             <h1>BANKA</h1>
           </div>
-          <div class="menu">
+          <nav>
             <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="care.html">Customer Care</a></li>
+                <li>
+                    <a href="#" onclick="return div_showsignup()">Sign Up</a> 
+                  </li>
+                    <li>
+                        <a href="#" onclick="return div_showlogin()">Login</a>
+                      </li>
+                      
+                  
               <li><a href="#" onclick="return div_showadmin()">Admin</a></li>
-              <li>
-                <a href="#" onclick="return div_showlogin()">Login</a>
-              </li>
-              <li>
-                <a href="#" onclick="return div_showsignup()">Sign Up</a>
-              </li>
-              <li><a href="care.html">Customer Care</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li class="current"><a href="index.html">Home</a></li>
+              
+              
+              
+              
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
     </header>
@@ -212,32 +218,36 @@
               <!-- Popup Div Ends Here -->
             </div>
       </section>
-    <section class="v-section container">
+    <section class="v-section ">
       <div class="video-wrap">
         <video autoplay loop muted>
           <source src="../media/nnbanka.mp4" type="video/mp4" />
         </video>
-      </div>
+      
       <div class="video-overlay"></div>
-      <div class="video-content container">
+      <div class="video-content">
         <h1>Welcome, You First</h1>
         <p>
           Banka is a light-weight core banking application that powers banking
           operations like account creation, customer deposit and withdrawals.
         </p>
+        <center>
         <button class="btn" onclick="div_showlogin()">Transact</button>
         <button class="btn2" onclick="div_showaccount()">Open Account</button>
+      </center>
       </div>
+    </div>
     </section>
 
     <section id="boxes">
-      <div class="container">
+      <div class="menu">
         <div class="box">
           <i class="far fa-credit-card"></i>
           <h3>ONLINE BANKING</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi
-            augue, viverra sit amet ultricies
+            augue, viverra sit amet ultricies. Banka is a light-weight core banking application that powers banking
+            operations like account creation, customer deposit and withdrawals.
           </p>
         </div>
         <div class="box middle">
@@ -245,7 +255,8 @@
           <h3>PAYMENT SOLUTIONS</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi
-            augue, viverra sit amet ultricies
+            augue, viverra sit amet ultricies. Banka is a light-weight core banking application that powers banking
+            operations like account creation, customer deposit and withdrawals.
           </p>
         </div>
         <div class="box">
@@ -253,7 +264,8 @@
           <h3>PAYMENT GATEWAY API</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi
-            augue, viverra sit amet ultricies
+            augue, viverra sit amet ultricies. Banka is a light-weight core banking application that powers banking
+            operations like account creation, customer deposit and withdrawals.
           </p>
         </div>
       </div>
