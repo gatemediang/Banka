@@ -168,6 +168,15 @@ header a:hover {
   color: #ffffff;
 }
 
+.create_acct select {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  color: #03a6ff;
+  background-color: #ffffff;
+  border: 1px solid #03a6ff;
+}
+
 /* Boxes */
 #boxes {
   margin-top: 20px;
@@ -327,6 +336,7 @@ div#popupContact {
   background-color: #fff;
   color: #03a6ff;
 }
+
 /* p {
   margin-top: 30px;
 } */
@@ -349,7 +359,39 @@ hr {
   padding: 5px;
   margin-top: 5px;
   border: 1px solid #03a6ff;
+  font-size: 14px;
+  font-family: raleway;
+  color: #03a6ff;
+  margin-right: 3%;
+  height: 40px;
+}
 
+#popcreate {
+  max-width: 300px;
+  min-width: 250px;
+  padding: 10px 50px;
+  border: 2px solid #03a6ff;
+  border-radius: 10px;
+  font-family: raleway;
+  background-color: #fff;
+  color: #03a6ff;
+}
+
+#popcrate h3 {
+  background-color: #ffffff;
+  padding: 20px 35px;
+  margin: -10px -50px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  border-bottom: solid 1px #03a6ff;
+  color: #03a6ff;
+}
+
+#popcreate input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #03a6ff;
   font-size: 14px;
   font-family: raleway;
   color: #03a6ff;
