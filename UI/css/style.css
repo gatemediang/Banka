@@ -288,15 +288,6 @@ input {
   header .logo,
   header nav,
   header nav li,
-  #newsletter h1,
-  #newsletter form,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
   header {
     padding-bottom: 20px;
   }
@@ -309,12 +300,5 @@ input {
   .quote button {
     display: block;
     width: 100%;
-  }
-
-  #newsletter form input[type="email"],
-  .quote input,
-  .quote textarea {
-    width: 100%;
-    margin-bottom: 5px;
   }
 }

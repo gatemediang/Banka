@@ -21,222 +21,223 @@
           </div>
           <nav>
             <ul>
-                <li class="current"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="care.html">Customer Care</a></li>
-                <li>
-                    <a href="#" onclick="return div_showsignup()">Sign Up</a> 
-                  </li>
-                    <li>
-                        <a href="#" onclick="return div_showlogin()">Login</a>
-                      </li>
-                      
-                  
+              <li class="current"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="care.html">Customer Care</a></li>
+              <li>
+                <a href="#" onclick="return div_showsignup()">Sign Up</a>
+              </li>
+              <li>
+                <a href="#" onclick="return div_showlogin()">Login</a>
+              </li>
+
               <li><a href="#" onclick="return div_showadmin()">Admin</a></li>
-              
-              
-              
-              
             </ul>
           </nav>
         </div>
       </div>
     </header>
     <section>
-        <!--NEW ACCOUNT FORM-->
-        <div id="accountdiv" class="popdiv">
-          
-          <div id="popupContact">
-            
-            <form action="#" id="form" method="post" name="form">
-              <img id="close" src="../media/close.png" onclick="div_hideaccount()" />
-  
-              <h3>Open Bank Account</h3
-              <hr />
-              <center>
-                <input
-                  id="name"
-                  name="name"
-                  placeholder="Full Name"
-                  type="text"
-                  required
-                />
-                <input
-                  id="bvn"
-                  name="bvn"
-                  placeholder="BVN (optional)"
-                  type="number"
-                />
-                <input
-                  id="phone"
-                  name="phone"
-                  placeholder="Phone Number"
-                  type="number"
-                  required
-                />
-                <input
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  type="email"
-                  required
-                />
-                <input
-                  type="password"
-                  placeholder="Password"
-                  id="pass"
-                  required
-                />
-                <input
-                  type="password"
-                  placeholder="confirm Password"
-                  id="pass"
-                  required
-                />
-                <a href="javascript:%20check_empty()" id="submit">Register</a>
-              </center>
-            </form>
-          </div>
-          
+      <!--NEW ACCOUNT FORM-->
+      <div id="accountdiv" class="popdiv">
+        <div id="popupContact">
+          <form action="#" id="form" method="post" name="form">
+            <img
+              id="close"
+              src="../media/close.png"
+              onclick="div_hideaccount()"
+            />
+
+            <h3>Open Bank Account</h3>
+            <hr />
+            <centre>
+              <input
+                id="name"
+                name="name"
+                placeholder="Full Name"
+                type="text"
+                required
+              />
+              <input
+                id="bvn"
+                name="bvn"
+                placeholder="BVN (optional)"
+                type="number"
+              />
+              <input
+                id="phone"
+                name="phone"
+                placeholder="Phone Number"
+                type="number"
+                required
+              />
+              <input
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                id="pass"
+                required
+              />
+              <input
+                type="password"
+                placeholder="confirm Password"
+                id="pass"
+                required
+              />
+              <a href="javascript:%20check_empty()" id="submit">Register</a>
+            </centre>
+          </form>
         </div>
-  
-  
-        <!--LOGIN FORM-->
-        <div id="logindiv" class="popdiv">
-           
-            <div id="popupContact">
-              
-              <form action="#" id="form" method="post" name="form">
-                <img id="close" src="../media/close.png" onclick="div_hidelogin()" />
-    
-                <h3>LogIn</h3
-                <hr />
-                <center>
-                 
-                  <input
-                    id="user"
-                    name="user"
-                    placeholder="User ID"
-                    type="number"
-                  />
-                  
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    id="pass"
-                    required
-                  />
-                  
-                  <a href="javascript:%20check_empty()" id="submit">Login</a>
-                </center>
-              </form>
-            </div>
-            
-          </div>
-  
-          <!--ADMIN LOGIN FORM-->
-        <div id="admindiv" class="popdiv">
-           
-            <div id="popupContact">
-              
-              <form action="#" id="form" method="post" name="form">
-                <img id="close" src="../media/close.png" onclick="div_hideadmin()" />
-    
-                <h3>Admin LogIn</h3
-                <hr />
-                <center>
-                 
-                  <input
-                    id="staff"
-                    name="staff"
-                    placeholder="Staff ID"
-                    type="number"
-                  />
-                  
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    id="pass"
-                    required
-                  />
-                  
-                  <a href="javascript:%20check_empty()" id="submit">Login</a>
-                </center>
-              </form>
-            </div>
-            
-          </div>
-          <!--  SIGN UP FORM-->
-          <div id="signupdiv" class="popdiv">
-              <!-- Popup Div Starts Here -->
-              <div id="popupContact">
-                <!-- Contact Us Form -->
-                <form action="#" id="form" method="post" name="form">
-                  <img id="close" src="../media/close.png" onclick="div_hidesignup()" />
-      
-                  <h3>Sign Up</h3
-                  <hr />
-                  <center>
-                    <input
-                      id="name"
-                      name="name"
-                      placeholder="Full Name"
-                      type="text"
-                      required
-                    />
-                    
-                    <input
-                      id="phone"
-                      name="phone"
-                      placeholder="Phone Number"
-                      type="number"
-                      required
-                    />
-                    <input
-                      id="email"
-                      name="email"
-                      placeholder="Email"
-                      type="email"
-                      required
-                    />
-                    <input
-                      type="password"
-                      placeholder="Password"
-                      id="pass"
-                      required
-                    />
-                    <input
-                      type="password"
-                      placeholder="confirm Password"
-                      id="pass"
-                      required
-                    />
-                    <a href="javascript:%20check_empty()" id="submit">Sign Up</a>
-                  </center>
-                </form>
-              </div>
-              <!-- Popup Div Ends Here -->
-            </div>
-      </section>
+      </div>
+
+      <!--LOGIN FORM-->
+      <div id="logindiv" class="popdiv">
+        <div id="popupContact">
+          <form action="#" id="form" method="post" name="form">
+            <img
+              id="close"
+              src="../media/close.png"
+              onclick="div_hidelogin()"
+            />
+
+            <h3>LogIn</h3>
+            <hr />
+            <centre>
+              <input
+                id="user"
+                name="user"
+                placeholder="User ID"
+                type="number"
+              />
+
+              <input
+                type="password"
+                placeholder="Password"
+                id="pass"
+                required
+              />
+
+              <a href="javascript:%20check_empty()" id="submit">Login</a>
+            </centre>
+          </form>
+        </div>
+      </div>
+
+      <!--ADMIN LOGIN FORM-->
+      <div id="admindiv" class="popdiv">
+        <div id="popupContact">
+          <form action="#" id="form" method="post" name="form">
+            <img
+              id="close"
+              src="../media/close.png"
+              onclick="div_hideadmin()"
+            />
+
+            <h3>Admin LogIn</h3>
+            <hr />
+            <centre>
+              <input
+                id="staff"
+                name="staff"
+                placeholder="Staff ID"
+                type="number"
+              />
+
+              <input
+                type="password"
+                placeholder="Password"
+                id="pass"
+                required
+              />
+
+              <a href="javascript:%20check_empty()" id="submit">Login</a>
+            </centre>
+          </form>
+        </div>
+      </div>
+      <!--  SIGN UP FORM-->
+      <div id="signupdiv" class="popdiv">
+        <!-- Popup Div Starts Here -->
+        <div id="popupContact">
+          <!-- Contact Us Form -->
+          <form action="#" id="form" method="post" name="form">
+            <img
+              id="close"
+              src="../media/close.png"
+              onclick="div_hidesignup()"
+            />
+
+            <h3>Sign Up</h3>
+            <hr />
+            <centre>
+              <input
+                id="name"
+                name="name"
+                placeholder="Full Name"
+                type="text"
+                required
+              />
+
+              <input
+                id="phone"
+                name="phone"
+                placeholder="Phone Number"
+                type="number"
+                required
+              />
+              <input
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                id="pass"
+                required
+              />
+              <input
+                type="password"
+                placeholder="confirm Password"
+                id="pass"
+                required
+              />
+              <a href="javascript:%20check_empty()" id="submit">Sign Up</a>
+            </centre>
+          </form>
+        </div>
+        <!-- Popup Div Ends Here -->
+      </div>
+    </section>
     <section class="v-section ">
       <div class="video-wrap">
         <video autoplay loop muted>
           <source src="../media/nnbanka.mp4" type="video/mp4" />
         </video>
-      
-      <div class="video-overlay"></div>
-      <div class="video-content">
-        <h1>Welcome, You First</h1>
-        <p>
-          Banka is a light-weight core banking application that powers banking
-          operations like account creation, customer deposit and withdrawals.
-        </p>
-        <center>
-        <button class="btn" onclick="div_showlogin()">Transact</button>
-        <button class="btn2" onclick="div_showaccount()">Open Account</button>
-      </center>
+
+        <div class="video-overlay"></div>
+        <div class="video-content">
+          <h1>Welcome, You First</h1>
+          <p>
+            Banka is a light-weight core banking application that powers banking
+            operations like account creation, customer deposit and withdrawals.
+          </p>
+          <centre>
+            <button class="btn" onclick="div_showlogin()">Transact</button>
+            <button class="btn2" onclick="div_showaccount()">
+              Open Account
+            </button>
+          </centre>
+        </div>
       </div>
-    </div>
     </section>
 
     <section id="boxes">
@@ -246,8 +247,9 @@
           <h3>ONLINE BANKING</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi
-            augue, viverra sit amet ultricies. Banka is a light-weight core banking application that powers banking
-            operations like account creation, customer deposit and withdrawals.
+            augue, viverra sit amet ultricies. Banka is a light-weight core
+            banking application that powers banking operations like account
+            creation, customer deposit and withdrawals.
           </p>
         </div>
         <div class="box middle">
@@ -255,8 +257,9 @@
           <h3>PAYMENT SOLUTIONS</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi
-            augue, viverra sit amet ultricies. Banka is a light-weight core banking application that powers banking
-            operations like account creation, customer deposit and withdrawals.
+            augue, viverra sit amet ultricies. Banka is a light-weight core
+            banking application that powers banking operations like account
+            creation, customer deposit and withdrawals.
           </p>
         </div>
         <div class="box">
@@ -264,8 +267,9 @@
           <h3>PAYMENT GATEWAY API</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi
-            augue, viverra sit amet ultricies. Banka is a light-weight core banking application that powers banking
-            operations like account creation, customer deposit and withdrawals.
+            augue, viverra sit amet ultricies. Banka is a light-weight core
+            banking application that powers banking operations like account
+            creation, customer deposit and withdrawals.
           </p>
         </div>
       </div>
