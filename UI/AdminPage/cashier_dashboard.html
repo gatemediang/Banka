@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Reliable and fast internet banking platform">
+      <meta name="keywords" content="online banking, payment gateway, API Integration, USSD">
+    <meta name="Banka" content="Online Banking">
+    <title>Users Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="../js/staff.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><a href="index.html" >BANKA</a></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Account Profile</a></li>
+            <li><a href="about.html">Transaction History</a></li>
+            <li class="current"><a href="services.html">Customer Care</a></li>
+            <li> <div class="current-user" id="user">
+            
+            <span><img class="avatar" src="../media/profile.jpg" /></span><br>
+            <span><i>Nkwe Eche</i></span>
+            
+            </div></li>
+            <li><i><a href="../index.html"><i class="fas fa-power-off"></i></a></i></li>
+          </ul>
+          
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <span class="cash">Cashier ID<span><br>
+        <span class="cashnum">00011</span>
+        <form>
+          <input type="search" placeholder="Search">
+          <button type="submit" class="button_2" onClick="div_showtransact()">Search</button>
+        </form>
+      </div>
+    </section>
+
+    
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title"></h1>
+          <ul id="services">
+           
+            <li>
+              <div class="acctdetails">
+                <h3>Account Details</h3>
+              
+
+
+                                        <div class="grid-container .acctdetails">
+                                          <div class="grid-item "><strong>Full Name</strong></div>
+                                          <div class="grid-item "><strong>ID Number</strong></div>
+                                          <div class="grid-item "><strong>Balance</strong></div>
+                                          <div class="grid-item "><strong>Type</strong></div>
+                                          <div class="grid-item "><strong>Satus</strong></div>
+                                          <div class="grid-item"><a href="#" onclick="return div_showtransact()">Tunji Ologun</a></div>
+                                          <div class="grid-item"><a href="#" onclick="return div_showtransact()">0002221111</a></div>
+                                          <div class="grid-item">100,000.00</div>
+                                          <div class="grid-item">Savings</div>
+                                         <div class="grid-item">Active</div>
+                                          <div class="grid-item"><a href="#" onclick="return div_showtransact()"> Ojo Oluseyi</a></div> 
+                                          <div class="grid-item"><a href="#" onclick="return div_showtransact()">0002221999</a></div>
+                                          <div class="grid-item">30,000,000.00</div>
+                                          <div class="grid-item">Current</div>
+                                          <div class="grid-item">Active</div>
+                                          <div class="grid-item">Amaka Sheu</div>
+                                          <div class="grid-item">0008761111</div>
+                                          <div class="grid-item">40,987,6.50</div>
+                                          <div class="grid-item">Savings</div>
+                                         <div class="grid-item">Dormant</div>
+                                         <div class="grid-item">Tunji Ologun</div>
+                                          <div class="grid-item"><a href="">0002221111</a></div>
+                                          <div class="grid-item">100,000.00</div>
+                                          <div class="grid-item">Savings</div>
+                                         <div class="grid-item">Active</div>
+                                          <div class="grid-item">Ojo Oluseyi</div> 
+                                          <div class="grid-item"><a href="">0002221999</a></div>
+                                          <div class="grid-item">30,000,000.00</div>
+                                          <div class="grid-item">Current</div>
+                                          <div class="grid-item">Active</div>
+                                          <div class="grid-item">Amaka Sheu</div>
+                                          <div class="grid-item"><a href="">0008761111</a></div>
+                                          <div class="grid-item">40,987,6.50</div>
+                                          <div class="grid-item">Savings</div>
+                                         <div class="grid-item">Dormant</div>
+                                         <div class="grid-item">Tunji Ologun</div>
+                                          <div class="grid-item">0002221111</div>
+                                          <div class="grid-item">100,000.00</div>
+                                          <div class="grid-item">Savings</div>
+                                         <div class="grid-item">Active</div>
+                                          <div class="grid-item">Ojo Oluseyi</div> 
+                                          <div class="grid-item">0002221999</div>
+                                          <div class="grid-item">30,000,000.00</div>
+                                          <div class="grid-item">Current</div>
+                                          <div class="grid-item">Active</div>
+                                          <div class="grid-item">Amaka Sheu</div>
+                                          <div class="grid-item">0008761111</div>
+                                          <div class="grid-item">40,987,6.50</div>
+                                          <div class="grid-item">Savings</div>
+                                         <div class="grid-item">Dormant</div>
+                                          
+                                          </div>                 
+                  </div>
+            </li>
+            <li>
+              
+                  
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Get Help</h3>
+            <form class="quote">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label?Email</label></labelEmail><br>
+                            <input type="email" placeholder="Emial Address">
+                        </div>
+                        <div>
+                            </label>Message</label><br>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+          </div>
+          <div class="dark sidemenu">
+         <a href="#"> Banka Transfer</a><br> 
+         <a href="#"> Other Banks Transfer</a><br>
+         <a href="#"> Airtime payment</a><br>
+         <a href="#"> Utility Bills Payment</a><br>
+         <a href="#"> InvestMent Banking</a><br>
+         <a href="#"> Investment Redemption</a><br>
+         <a href="#"> Loans</a><br>
+         <a href="#"> Pension Funds</a><br>
+         <a href="#"> Account Settings</a><br> 
+         <a href="#"> Airtime payment</a><br>
+         <a href="#"> Utility Bills Payment</a><br>
+         <a href="#"> BVN Number</a><br>
+         
+          
+
+            
+
+          </div>
+          
+        </aside>
+      </div>
+    </section>
+    <section>
+        <!--  Transaction Form-->
+        <div id="transactdiv" class="popdiv ">
+            <!-- Popup Div Starts Here -->
+            <div id="popupContact">
+              <!-- Contact Us Form -->
+              <form action="#" id="popform1" method="post" name="form">
+                <img id="close" src="../media/close.png" onclick="div_hidetransact()" />
+    
+                <h3>Transaction</h3>
+                <hr/>
+                <centre>
+                    <img src="../media/profile.jpg" style="width:140px; height:120px;">
+                    <div class="tranzact">
+                <div class="grid-container tranzact2">
+                
+                <div class="grid-item ">Name</div>
+                <div class="grid-item ">Tunji Ologun</div>
+                <div class="grid-item ">ID</div>
+
+                  <div class="grid-item ">0002221111</div>
+                  <div class="grid-item ">BVN</div>
+                  <div class="grid-item ">0008881111</div>
+                  <div class="grid-item ">PIN N0</div>
+                  <div class="grid-item ">0211</div>
+                  <div class="grid-item ">Officer</div>
+                  <div class="grid-item ">Musa Tochuku</div>
+                  
+                 </div> 
+                 <div><a href="#">Transaction History....</a></div>         
+                </div>
+                <div class="cashierform">
+                  <input
+                    type="number"
+                    placeholder="Debit Amount"
+                    id="debit"
+                    required
+                  /><button type="submit" class="btn_3">Debit</button>
+                </div>
+                <div class="cashierform ">
+                  <input
+                    type="number"
+                    placeholder="Credit Amount"
+                    id="credit"
+                    required
+                  /><button type="submit" class="button_2 btn_3">Credit</button>
+                </div>
+                </centre>
+              </form>
+            </div>
+            <!-- Popup Div Ends Here -->
+          </div>
+    </section>
+
+    <footer>
+      <div class="grid-container">
+        <div class="grid-item">
+          A Grid Layout must have a parent element with the Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit
+          amet
+        </div>
+        <div class="grid-item">
+          2A Grid Layout must have a parent element with the Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit
+          amet
+        </div>
+        <div class="grid-item">
+          3A Grid Layout must have a parent element with the Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit
+          amet
+        </div>
+        <div class="grid-item">
+          4A Grid Layout must have a parent element with the Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit
+          amet <br />
+          Banka PLC, Copyright &copy; 2019
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
